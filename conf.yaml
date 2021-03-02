@@ -1,0 +1,16 @@
+TrainingDataPath:
+  #需要训练的垃圾邮件的目录
+  spam:  /home/hyl/BayesSpam-master/data/spam
+  #需要训练的正常邮件的目录
+  ham:  /home/hyl/BayesSpam-master/data/ham
+#测试邮件所在目录
+TestDataPath: /home/hyl/BayesSpam-master/data/test/
+#停用词文件所在目录
+UselessTokensPath:  /home/hyl/BayesSpam-master/BayesSpam-master/data/stop_words.txt
+Redis:
+  # ip
+       host: localhost
+  # port
+       port: 6379
+  # db
+       db: 0
